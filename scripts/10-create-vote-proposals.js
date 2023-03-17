@@ -47,7 +47,7 @@ import { ethers } from "ethers";
     // Create proposal to transfer ourselves 6,900 tokens for being awesome.
     const amount = 6_900;
     const description = "Should the DAO transfer " + amount + " tokens from the treasury to " +
-      process.env.WALLET_ADDRESS + " towards manufacturing defect prevention design team?";
+      process.env.WALLET_ADDRESS + " towards the defect prevention design team?";
     const executions = [
       {
         // Again, we're sending ourselves 0 ETH. Just sending our own token.
